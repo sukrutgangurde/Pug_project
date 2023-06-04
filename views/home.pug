@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content   
+        
+    section#introSection 
+
+        h5 Welcome to Rhythm & Grace Dance Academy
+        div.small  Dance Dance Dance
+    section#mission 
+      h2  Our Mission
+      div.card
+        h3 Unleash Your Inner Dance Star!
+          div.card-box 
+            div.card-img 
+              img(src="/static/2.png")
+            div.card-content 
+               p Discover your hidden talent and shine on the virtual stage with our online dance academy!
+      div.card
+        h3 Discover the Magic of Dance!
+         div.card-box 
+            div.card-img 
+              img(src="/static/3.png")
+            div.card-content 
+              p Transform Your Moves, Ignite Your Passion, and Dance with Unbridled Joy
+      div.card
+        h3 Move, Groove and Dance Online!
+           div.card-box 
+            div.card-img 
+              img(src="/static/4.png")
+            div.card-content 
+              p Learn to dance anytime, anywhere with our online academy.
+
+    section#introSponsors
+      h2 Our Sponsors
+      div#sponsors
+         img(src="/static/w1.png", class="spImg")
+         img(src="/static/w5.png", class="spImg")
+         img(src="/static/w6.jpg", class="spImg")
+         img(src="/static/logo4.jpg", class="spImg")
+
+    

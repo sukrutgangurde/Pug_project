@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin:  12px 0;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.myInput{
+    width:37%;
+    padding: 11px;
+    margin: 8px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+
+}
+.btn{
+    padding: 12px 13px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: black;
+    color: blueviolet;
+    cursor: pointer;
+    margin: 15px;
+}
+.container{
+    min-height: 75vh;
+    margin-top: 43px;
+    }
+.container h1{
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+    font-size: 23px;
+    margin: 12px;
+}

@@ -1,0 +1,56 @@
+doctype html
+html
+  head
+    title Dance Academy
+    style
+       include ../static/style.css
+  body
+    nav#navbar
+      ul 
+        div.logo 
+          img(src="/static/1.png")
+            | R&G
+        li #[a(href="/")  Home] 
+        li #[a(href="/") About ] 
+        li #[a(href="/") Services] 
+        li #[a(href="/") Class Info] 
+        li #[a(href="/") Contact us]  
+    
+    section#introSection 
+
+        h5 Welcome to Rhythm & Grace Dance Academy
+        div.small  Dance Dance Dance
+    section#mission 
+      h2  Our Mission
+      div.card
+        h3 Dance Perfection
+          div.card-box 
+            div.card-img 
+              img(src="/static/2.png")
+            div.card-content 
+               p This is the best Dance Academy in the universe
+      div.card
+        h3 Dance the way you like
+         div.card-box 
+            div.card-img 
+              img(src="/static/3.png")
+            div.card-content 
+              p This is the best Dance Academy in the universe
+      div.card
+        h3 Expert Teaching
+           div.card-box 
+            div.card-img 
+              img(src="/static/4.png")
+            div.card-content 
+              p This is the best Dance Academy in the universe
+    section#introSponsors
+      h2 Our Sponsors
+      div#sponsors
+         img(src="/static/w1.jpg", class="spImg")
+         img(src="/static/logo2.png", class="spImg")
+         img(src="/static/logo3.jpg", class="spImg")
+         img(src="/static/logo4.jpg", class="spImg")
+    footer#footer 
+        | CopyRight © 2023 Rhythm&Grace
+     script
+      include ../static/index.js

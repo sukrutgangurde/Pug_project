@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color:#b467d0;
+}
+.logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+}
+
+.logo img {
+    height: 50px;
+
+}
+
+#navbar{
+    background-color:#a829d6;
+    padding: 15px 4px;
+    font-family: 'Abel', sans-serif;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+#navbar li a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 12px 37px;
+}
+
+#navbar li a:hover {
+    color: rgb(111, 28, 159);
+
+}
+
+#navbar li {
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#introSection {
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+    font-size: 43px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: center /cover no-repeat url('/static/dance3.jpg ');
+
+}
+
+#introSection div.small {
+    font-size: 38px;
+    padding: 16px;
+}
+
+#mission {
+    height: 326px;
+    background-color: #b467d0;
+    width: 67%;
+    margin: auto;
+
+}
+
+#mission h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Abel', sans-serif;
+    padding-top: 14px;
+}
+
+.card {
+    border: 2px solid black;
+    background-color: #a15bba;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 12px;
+    width: 30%;
+    margin: 13px 14px;
+    height: 200px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card h3 {
+    margin: 12px;
+    text-align: center;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 131px;
+    padding: 0 14px;
+    margin: 3px -20px;
+}
+
+.card-img img {
+    height: inherit;
+}
+
+.card-content {
+    padding: 7px;
+}
+
+#introSponsors {
+    height: 300px;
+    background-color: #a15bba;
+    border: 1px solid rgb(63, 5, 63);
+}
+
+#introSponsors h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Abel', sans-serif;
+    padding-top: 14px;
+}
+
+.spImg {
+    height: 75%;
+    margin: 20px;
+}
+
+#sponsors {
+    height: 174px;
+    max-width: 1000px;
+    margin: 27px auto;
+
+}
+
+#footer {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+
+}
